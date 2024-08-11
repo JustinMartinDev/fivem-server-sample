@@ -8,7 +8,7 @@
     "--------- BUILD ---------": "--------- BUILD ---------",
     "build": "rollup -c",
     "--------- WATCH ---------": "--------- WATCH ---------",
-    "watch": "rollup -c"
+    "watch": "rollup -c -w"
   },
   "devDependencies": {
     "@citizenfx/client": "catalog:",
