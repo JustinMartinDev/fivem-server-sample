@@ -1,0 +1,13 @@
+# https://nx.dev/more-concepts/folder-structure
+# https://pnpm.io/workspaces
+packages:
+  - "**/client/"
+  - "**/server/"
+  - "**/types/"
+
+catalog: 
+  typescript: ^5.5.4
+  '@types/node': ^20.14.12
+  '@citizenfx/client': 2.0.9282-1
+  '@citizenfx/server': 2.0.9282-1
+  'vite': ^5.4.0

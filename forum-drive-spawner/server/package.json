@@ -1,0 +1,22 @@
+{
+  "name": "@forum-drive-spawner/server",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf ./dist && rm -rf ./node_modules",
+    "prebuild": "rm -rf ./dist",
+    "--------- BUILD ---------": "--------- BUILD ---------",
+    "build": "vite build",
+    "--------- WATCH ---------": "--------- WATCH ---------",
+    "watch": "vite"
+  },
+  "devDependencies": {
+    "@citizenfx/server": "catalog:",
+    "@types/node": "catalog:",
+    "vite": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  }
+} 
