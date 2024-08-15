@@ -1,7 +1,6 @@
 {
-  "name": "@forum-drive-spawner/client",
+  "name": "@forum-drive-spawnert-ts-vanilla/server",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "clean": "rm -rf ./dist && rm -rf ./node_modules",
     "prebuild": "rm -rf ./dist",
@@ -11,7 +10,7 @@
     "watch": "rollup -c -w"
   },
   "devDependencies": {
-    "@citizenfx/client": "catalog:",
+    "@citizenfx/server": "catalog:",
     "@rollup/plugin-commonjs": "catalog:",
     "@rollup/plugin-node-resolve": "catalog:",
     "@rollup/plugin-typescript": "catalog:",
@@ -24,5 +23,6 @@
   "engines": {
     "node": ">=16",
     "pnpm": ">=7"
-  }
+  },
+  "dependencies": {}
 }

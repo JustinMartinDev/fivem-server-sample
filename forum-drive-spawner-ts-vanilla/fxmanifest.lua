@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 
-name 'forum-drive-spawner'
+name 'forum-drive-spawnert-ts-vanilla'
 
 version '1.0.0'
 
