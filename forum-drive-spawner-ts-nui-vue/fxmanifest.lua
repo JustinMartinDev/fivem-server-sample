@@ -1,8 +1,6 @@
 fx_version 'cerulean'
 
-name 'forum-drive-spawner-ts-nui-react'
-author '<author>'
-description '<description>'
+name 'forum-drive-spawner-ts-nui-vue'
 
 version '1.0.0'
 

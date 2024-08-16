@@ -3,7 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 
 export default {
-  input: "src/server/index.ts",
+  input: "src/index.ts",
   output: {
     dir: "dist",
     format: "cjs",
