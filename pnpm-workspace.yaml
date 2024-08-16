@@ -4,6 +4,7 @@ packages:
   - "**/client/"
   - "**/server/"
   - "**/types/"
+  - "**/web/"
 
 catalog: 
   typescript: ^5.5.4
