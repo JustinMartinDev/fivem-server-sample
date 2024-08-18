@@ -36,7 +36,7 @@ export const initNui = () => {
   registerNUICallback("hideFrame", () => {
     toggleNuiFrame(false)
   })
-
+  
   // Exemple of sending data to React
 
   registerNUICallback("getClientData", (data, cb) => {
