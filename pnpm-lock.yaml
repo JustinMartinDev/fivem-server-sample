@@ -93,6 +93,43 @@ importers:
         specifier: ^5.4.1
         version: 5.4.1(@types/node@20.14.14)(terser@5.31.6)
 
+  forum-drive-spawner-js-nui-vue/client:
+    devDependencies:
+      '@rollup/plugin-commonjs':
+        specifier: 'catalog:'
+        version: 26.0.1(rollup@4.20.0)
+      '@rollup/plugin-node-resolve':
+        specifier: 'catalog:'
+        version: 15.2.3(rollup@4.20.0)
+      rollup:
+        specifier: 'catalog:'
+        version: 4.20.0
+
+  forum-drive-spawner-js-nui-vue/server:
+    devDependencies:
+      '@rollup/plugin-commonjs':
+        specifier: 'catalog:'
+        version: 26.0.1(rollup@4.20.0)
+      '@rollup/plugin-node-resolve':
+        specifier: 'catalog:'
+        version: 15.2.3(rollup@4.20.0)
+      rollup:
+        specifier: 'catalog:'
+        version: 4.20.0
+
+  forum-drive-spawner-js-nui-vue/web:
+    dependencies:
+      vue:
+        specifier: ^3.4.31
+        version: 3.4.38(typescript@5.5.4)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^5.0.5
+        version: 5.1.2(vite@5.4.1(@types/node@20.14.14)(terser@5.31.6))(vue@3.4.38(typescript@5.5.4))
+      vite:
+        specifier: ^5.4.1
+        version: 5.4.1(@types/node@20.14.14)(terser@5.31.6)
+
   forum-drive-spawner-ts-nui-react/client:
     devDependencies:
       '@citizenfx/client':
